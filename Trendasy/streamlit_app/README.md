@@ -7,7 +7,7 @@ watchlists with fundamentals.
 ## Run locally
 
 ```bash
-cd streamlit_app
+cd Trendasy/streamlit_app
 pip install -r requirements.txt
 streamlit run app.py
 ```
@@ -39,4 +39,4 @@ Figures are **approximate** — verify before use. **Not investment advice.**
 ## Deploy (free)
 
 Push the repo and deploy on [Streamlit Community Cloud](https://share.streamlit.io): point it at
-`streamlit_app/app.py`. (Main file path: `streamlit_app/app.py`.)
+`Trendasy/streamlit_app/app.py`. (Main file path: `Trendasy/streamlit_app/app.py`.)
