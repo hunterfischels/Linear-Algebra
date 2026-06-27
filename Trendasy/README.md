@@ -29,6 +29,21 @@ streamlit run app.py
 See [`streamlit_app/README.md`](./streamlit_app/README.md) for details and free deployment on
 Streamlit Community Cloud (main file: `Trendasy/streamlit_app/app.py`).
 
+## Publish as a standalone repository
+
+This project is built to be its own repo with `Trendasy/` as the root. Because the cloud session that
+generated it can only push to the `Linear-Algebra` repo, publish it from a machine where you can push
+to your `Trendasy` repo:
+
+```bash
+# from the root of a local clone of the Linear-Algebra repo:
+./Trendasy/publish.sh https://github.com/hunterfischels/Trendasy.git main
+```
+
+This does a history-preserving `git subtree split` so the new repo's root **is** the Trendasy project
+(README, docs, assets, index.html, streamlit_app, and a root `.github/workflows/deploy-pages.yml`).
+Afterwards, in the Trendasy repo: **Settings → Pages → Source = GitHub Actions** to publish the site.
+
 ## Data sources
 
 Prices: Yahoo Finance (daily adjusted-close). Fundamentals: stockanalysis.com + company IR / SEC
