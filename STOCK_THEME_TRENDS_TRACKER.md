@@ -4,6 +4,10 @@
 
 *Compiled: 2026-06-27 · Coverage window: 2024 → June 2026*
 
+> 📊 **Companion:** [`WATCHLISTS_AND_FUNDAMENTALS.md`](./WATCHLISTS_AND_FUNDAMENTALS.md) — a 5-year
+> relative-performance chart across themes (common ETFs as data pools) and a **watchlist per ETF**
+> with EPS growth, P/E, forward P/E, margins, and backlog for every constituent.
+
 ---
 
 ## How to read this document
