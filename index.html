@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Stock Theme & Subsector Trend Tracker</title>
+<style>
+ :root{--bg:#0f1115;--panel:#171a21;--ink:#e8eaed;--mut:#9aa0aa;--acc:#4da3ff;--line:#262b35;}
+ *{box-sizing:border-box}
+ body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+ .wrap{max-width:980px;margin:0 auto;padding:32px 20px 64px}
+ h1{font-size:26px;margin:0 0 6px}
+ .sub{color:var(--mut);margin:0 0 26px}
+ a{color:var(--acc);text-decoration:none}
+ a:hover{text-decoration:underline}
+ .cta{display:inline-block;background:var(--acc);color:#04101f;font-weight:700;padding:12px 18px;border-radius:8px;margin:6px 0 24px}
+ .cta:hover{text-decoration:none;filter:brightness(1.07)}
+ .grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:18px 0}
+ .card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px}
+ .card h3{margin:0 0 6px;font-size:15px}
+ .card p{margin:0;color:var(--mut);font-size:13.5px}
+ img{width:100%;border:1px solid var(--line);border-radius:10px;margin:10px 0}
+ .muted{color:var(--mut);font-size:12.5px}
+ hr{border:none;border-top:1px solid var(--line);margin:30px 0}
+ ul{padding-left:18px} li{margin:4px 0}
+ @media(max-width:680px){.grid{grid-template-columns:1fr}}
+</style></head>
+<body><div class="wrap">
+ <h1>Stock Theme &amp; Subsector Trend Tracker</h1>
+ <p class="sub">A timeline of news and government contracts correlated to relative gains across the
+ market's hottest subsectors — semis, memory, photonics, drones, space, quantum, nuclear, defense,
+ rare earths &amp; more. Coverage 2024 → June 2026.</p>
+
+ <a class="cta" href="./assets/interactive_etf_chart.html">🖱️ Open the interactive ETF chart →</a>
+
+ <div class="card">
+  <h3>Interactive chart features</h3>
+  <p>Adjustable start-date slider (1M/3M/6M/1Y/2Y/3Y/YTD/Max) rebases every line to 100 to isolate
+  short-term relative trends · clickable ◆ diamond nodes surface key catalysts · 87 ETFs + SPY
+  benchmark grouped by subsector · legend shows <b>ticker · subsector</b>.</p>
+ </div>
+
+ <h2>5-year relative performance</h2>
+ <img src="./assets/etf_relative_performance_5y.png" alt="5-year thematic ETF relative performance (log scale)">
+ <img src="./assets/etf_total_return_5y_bar.png" alt="Thematic ETF 5-year total return, best to worst">
+
+ <hr>
+ <h2>Documents</h2>
+ <div class="grid">
+  <div class="card"><h3><a href="https://github.com/hunterfischels/Linear-Algebra/blob/claude/stock-theme-trends-tracker-g5o88m/STOCK_THEME_TRENDS_TRACKER.md">📄 Theme &amp; Subsector Tracker</a></h3>
+   <p>Master cross-sector catalyst timeline + 9 subsector deep-dives (narrative, key-ticker performance, dated event timelines, sources).</p></div>
+  <div class="card"><h3><a href="https://github.com/hunterfischels/Linear-Algebra/blob/claude/stock-theme-trends-tracker-g5o88m/WATCHLISTS_AND_FUNDAMENTALS.md">📊 Watchlists &amp; Fundamentals</a></h3>
+   <p>Per-ETF watchlists with EPS growth, P/E, forward P/E, margins, and backlog for ~75 companies, plus the 5y ETF return table.</p></div>
+ </div>
+
+ <p class="muted">Data: Yahoo Finance (prices, adj-close) and stockanalysis.com / company IR &amp; SEC
+ filings (fundamentals), as of June 2026. Figures are approximate — verify before use.
+ <b>Not investment advice.</b></p>
+</div></body></html>
