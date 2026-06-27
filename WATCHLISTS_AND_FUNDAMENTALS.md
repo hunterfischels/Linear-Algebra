@@ -31,6 +31,20 @@ SMH/SOXX; drones → ITA/defense, with newer pure-plays UAV/DRNZ/SHLD too short 
 
 ![Thematic ETF ~5-year total return, best to worst](./assets/etf_total_return_5y_bar.png)
 
+### 🖱️ Interactive version → [`assets/interactive_etf_chart.html`](./assets/interactive_etf_chart.html)
+
+A self-contained interactive chart (open it in a browser — it won't render in GitHub's file
+preview; **download the file and open it**, or serve the repo via GitHub Pages):
+
+- **Adjustable start point** — drag the start-date slider (or use 1M / 3M / 6M / 1Y / 2Y / 3Y / YTD /
+  Max presets) to rebase every line to 100 at any day and isolate **short-term relative trends**.
+- **Clickable news nodes** — ◆ diamonds sit on the lines at key catalysts; click a diamond (or a
+  catalyst card below the chart) to highlight the event. 32 curated catalysts are mapped to their ETF.
+- **Deep ETF universe** — all **87 ETFs** from `ETF_Tickers.csv` plus an SPY benchmark, grouped by
+  subsector in a searchable sidebar; the legend shows **`TICKER · subsector`**.
+- Defaults to the core themes over a trailing 1-year window; toggle any ticker on/off, or "All / None
+  / Core". Fully offline (Plotly is embedded). ~5 MB.
+
 **Total return over trailing windows (Yahoo adj-close, as of 2026-06-26):**
 
 | ETF | Theme (data pool) | ~1Y | ~3Y | ~5Y |
