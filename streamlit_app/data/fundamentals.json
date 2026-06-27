@@ -1,0 +1,931 @@
+{
+ "columns": [
+  "Ticker",
+  "Company",
+  "EPS g (YoY)",
+  "Fwd EPS g",
+  "P/E",
+  "Fwd P/E",
+  "GM %",
+  "OM %",
+  "NM %",
+  "Backlog"
+ ],
+ "pools": [
+  {
+   "key": "semis",
+   "etf": "SMH / SOXX",
+   "title": "Semiconductors & AI chips",
+   "rows": [
+    {
+     "Ticker": "NVDA",
+     "Company": "Nvidia",
+     "EPS g (YoY)": "+110.6%",
+     "Fwd EPS g": "+42%",
+     "P/E": "29.5",
+     "Fwd P/E": "19.4",
+     "GM %": "74.2",
+     "OM %": "64.0",
+     "NM %": "63.0",
+     "Backlog": "n/r"
+    },
+    {
+     "Ticker": "AVGO",
+     "Company": "Broadcom",
+     "EPS g (YoY)": "+124.7%",
+     "Fwd EPS g": "+66.9%",
+     "P/E": "60.8",
+     "Fwd P/E": "23.2",
+     "GM %": "76.3",
+     "OM %": "44.2",
+     "NM %": "38.9",
+     "Backlog": "n/r"
+    },
+    {
+     "Ticker": "AMD",
+     "Company": "Adv. Micro Devices",
+     "EPS g (YoY)": "+124.1%",
+     "Fwd EPS g": "+77%*",
+     "P/E": "173.9",
+     "Fwd P/E": "59.8",
+     "GM %": "53.1",
+     "OM %": "11.8",
+     "NM %": "13.4",
+     "Backlog": "n/r"
+    },
+    {
+     "Ticker": "TSM",
+     "Company": "TSMC (ADR)",
+     "EPS g (YoY)": "+47.3%",
+     "Fwd EPS g": "+44%*",
+     "P/E": "31.9",
+     "Fwd P/E": "22.2",
+     "GM %": "61.9",
+     "OM %": "53.3",
+     "NM %": "46.5",
+     "Backlog": "n/r"
+    },
+    {
+     "Ticker": "ASML",
+     "Company": "ASML",
+     "EPS g (YoY)": "+17.1%",
+     "Fwd EPS g": "+37%*",
+     "P/E": "60.1",
+     "Fwd P/E": "46.5",
+     "GM %": "52.6",
+     "OM %": "34.8",
+     "NM %": "29",
+     "Backlog": "\u20ac38.8B order book"
+    },
+    {
+     "Ticker": "ARM",
+     "Company": "Arm Holdings",
+     "EPS g (YoY)": "+13.3%",
+     "Fwd EPS g": "+22.8%",
+     "P/E": "394.9",
+     "Fwd P/E": "153.8",
+     "GM %": "97.5",
+     "OM %": "18.3",
+     "NM %": "18.4",
+     "Backlog": "n/r"
+    },
+    {
+     "Ticker": "MRVL",
+     "Company": "Marvell",
+     "EPS g (YoY)": "turnaround",
+     "Fwd EPS g": "+24.5%*",
+     "P/E": "92.2",
+     "Fwd P/E": "58.8",
+     "GM %": "51.5",
+     "OM %": "16.4",
+     "NM %": "29.0",
+     "Backlog": "n/r"
+    },
+    {
+     "Ticker": "INTC",
+     "Company": "Intel",
+     "EPS g (YoY)": "neg",
+     "Fwd EPS g": "+45%*",
+     "P/E": "N/A (neg)",
+     "Fwd P/E": "121.0",
+     "GM %": "37.2",
+     "OM %": "3.7",
+     "NM %": "\u22125.9",
+     "Backlog": "n/r"
+    },
+    {
+     "Ticker": "QCOM",
+     "Company": "Qualcomm",
+     "EPS g (YoY)": "\u22126.3%",
+     "Fwd EPS g": "+11%*",
+     "P/E": "20.7",
+     "Fwd P/E": "19.3",
+     "GM %": "54.8",
+     "OM %": "25.7",
+     "NM %": "22.3",
+     "Backlog": "n/r"
+    },
+    {
+     "Ticker": "LRCX",
+     "Company": "Lam Research",
+     "EPS g (YoY)": "+47.6%",
+     "Fwd EPS g": "+33%*",
+     "P/E": "71.6",
+     "Fwd P/E": "50.4",
+     "GM %": "50.0",
+     "OM %": "34.3",
+     "NM %": "30.9",
+     "Backlog": "n/r"
+    },
+    {
+     "Ticker": "AMAT",
+     "Company": "Applied Materials",
+     "EPS g (YoY)": "+29.6%",
+     "Fwd EPS g": "+30%*",
+     "P/E": "59.0",
+     "Fwd P/E": "42.5",
+     "GM %": "49.0",
+     "OM %": "28.6",
+     "NM %": "29.3",
+     "Backlog": "n/r"
+    },
+    {
+     "Ticker": "KLAC",
+     "Company": "KLA Corp",
+     "EPS g (YoY)": "+16.1%",
+     "Fwd EPS g": "+11.6%",
+     "P/E": "70.4",
+     "Fwd P/E": "52.2",
+     "GM %": "61.5",
+     "OM %": "41.7",
+     "NM %": "35.7",
+     "Backlog": "n/r"
+    }
+   ]
+  },
+  {
+   "key": "memory",
+   "etf": "(sub-pool of SOXX)",
+   "title": "Memory (DRAM / HBM / NAND)",
+   "rows": [
+    {
+     "Ticker": "MU",
+     "Company": "Micron",
+     "EPS g (YoY)": "+481.8%*",
+     "Fwd EPS g": "+150%*",
+     "P/E": "25.6",
+     "Fwd P/E": "7.9",
+     "GM %": "72.6",
+     "OM %": "65.6",
+     "NM %": "55.9",
+     "Backlog": "n/r"
+    },
+    {
+     "Ticker": "WDC",
+     "Company": "Western Digital",
+     "EPS g (YoY)": "+359%*",
+     "Fwd EPS g": "+81.6%*",
+     "P/E": "32.1",
+     "Fwd P/E": "37.2*",
+     "GM %": "45.4",
+     "OM %": "30.3",
+     "NM %": "~17 (FY25)",
+     "Backlog": "n/r"
+    },
+    {
+     "Ticker": "SNDK",
+     "Company": "SanDisk",
+     "EPS g (YoY)": "turnaround",
+     "Fwd EPS g": "+179.7%*",
+     "P/E": "70.4*",
+     "Fwd P/E": "~9\u201312",
+     "GM %": "56.0",
+     "OM %": "40.7",
+     "NM %": "~34*",
+     "Backlog": "~$42B supply"
+    },
+    {
+     "Ticker": "000660.KS",
+     "Company": "SK Hynix",
+     "EPS g (YoY)": "+185.7%*",
+     "Fwd EPS g": "+96.7% (3Y)",
+     "P/E": "25.3",
+     "Fwd P/E": "6.9",
+     "GM %": "68.3",
+     "OM %": "58.6",
+     "NM %": "56.9",
+     "Backlog": "n/r"
+    },
+    {
+     "Ticker": "005930.KS",
+     "Company": "Samsung Elec.",
+     "EPS g (YoY)": "+141.2%*",
+     "Fwd EPS g": "+112.4% (3Y)",
+     "P/E": "27.2",
+     "Fwd P/E": "6.1",
+     "GM %": "47.7",
+     "OM %": "24.2",
+     "NM %": "21.5",
+     "Backlog": "n/r"
+    },
+    {
+     "Ticker": "2408.TW",
+     "Company": "Nanya",
+     "EPS g (YoY)": "+530%*",
+     "Fwd EPS g": "+202.7% (3Y)",
+     "P/E": "41.3*",
+     "Fwd P/E": "7.8",
+     "GM %": "45.5",
+     "OM %": "35.5",
+     "NM %": "31.9",
+     "Backlog": "n/r"
+    },
+    {
+     "Ticker": "2344.TW",
+     "Company": "Winbond",
+     "EPS g (YoY)": "+529.9%*",
+     "Fwd EPS g": "+270.3% (3Y)",
+     "P/E": "61.3*",
+     "Fwd P/E": "7.4",
+     "GM %": "43.2",
+     "OM %": "17.7",
+     "NM %": "14.1",
+     "Backlog": "n/r"
+    }
+   ]
+  },
+  {
+   "key": "photonics",
+   "etf": "(no pure-play ETF)",
+   "title": "Photonics / optical (AI interconnect)",
+   "rows": [
+    {
+     "Ticker": "COHR",
+     "Company": "Coherent",
+     "EPS g (YoY)": "turned +",
+     "Fwd EPS g": "+50%*",
+     "P/E": "158.9*",
+     "Fwd P/E": "51.1",
+     "GM %": "35.2",
+     "OM %": "5.0",
+     "NM %": "0.5",
+     "Backlog": "record (no $)"
+    },
+    {
+     "Ticker": "LITE",
+     "Company": "Lumentum",
+     "EPS g (YoY)": "turned +",
+     "Fwd EPS g": "+120%*",
+     "P/E": "155.3",
+     "Fwd P/E": "51.6",
+     "GM %": "33.0",
+     "OM %": "\u221211.0",
+     "NM %": "1.6",
+     "Backlog": "n/r"
+    },
+    {
+     "Ticker": "AAOI",
+     "Company": "Applied Optoelec.",
+     "EPS g (YoY)": "loss narrowing",
+     "Fwd EPS g": "+437%*",
+     "P/E": "N/A (neg)",
+     "Fwd P/E": "74.6",
+     "GM %": "30.0",
+     "OM %": "\u221212.0",
+     "NM %": "\u22128.4",
+     "Backlog": "n/r"
+    },
+    {
+     "Ticker": "FN",
+     "Company": "Fabrinet",
+     "EPS g (YoY)": "+13.2%",
+     "Fwd EPS g": "+25.1%*",
+     "P/E": "45.1",
+     "Fwd P/E": "32.0",
+     "GM %": "12.1",
+     "OM %": "9.5",
+     "NM %": "9.7",
+     "Backlog": "n/r"
+    },
+    {
+     "Ticker": "ALAB",
+     "Company": "Astera Labs",
+     "EPS g (YoY)": "turned +",
+     "Fwd EPS g": "+63%*",
+     "P/E": "264.9",
+     "Fwd P/E": "116.5",
+     "GM %": "75.7",
+     "OM %": "20.3",
+     "NM %": "25.7",
+     "Backlog": "n/r"
+    },
+    {
+     "Ticker": "CRDO",
+     "Company": "Credo",
+     "EPS g (YoY)": "+766%*",
+     "Fwd EPS g": "+46%*",
+     "P/E": "94.8",
+     "Fwd P/E": "38.9",
+     "GM %": "68.0",
+     "OM %": "33.3",
+     "NM %": "35.4",
+     "Backlog": "n/r"
+    },
+    {
+     "Ticker": "POET",
+     "Company": "POET Technologies",
+     "EPS g (YoY)": "neg",
+     "Fwd EPS g": "N/A",
+     "P/E": "N/A (neg)",
+     "Fwd P/E": "~100*",
+     "GM %": "neg",
+     "OM %": "neg",
+     "NM %": "neg",
+     "Backlog": "n/r"
+    },
+    {
+     "Ticker": "LASR",
+     "Company": "nLight",
+     "EPS g (YoY)": "neg, improving",
+     "Fwd EPS g": "loss\u2192profit",
+     "P/E": "N/A (neg)",
+     "Fwd P/E": "131.2",
+     "GM %": "31.3",
+     "OM %": "\u22126.1",
+     "NM %": "\u22125.1",
+     "Backlog": "~$162M funded"
+    },
+    {
+     "Ticker": "IPGP",
+     "Company": "IPG Photonics",
+     "EPS g (YoY)": "+ from loss",
+     "Fwd EPS g": "+52%*",
+     "P/E": "157.7",
+     "Fwd P/E": "59.3",
+     "GM %": "37.6",
+     "OM %": "0.3",
+     "NM %": "2.8",
+     "Backlog": "~$631.5M"
+    }
+   ]
+  },
+  {
+   "key": "drones",
+   "etf": "UAV / DRNZ",
+   "title": "Drones / UAS",
+   "rows": [
+    {
+     "Ticker": "AVAV",
+     "Company": "AeroVironment",
+     "EPS g (YoY)": "\u221228.9% (FY25)",
+     "Fwd EPS g": "+39%*",
+     "P/E": "N/A (neg)",
+     "Fwd P/E": "~35\u201348",
+     "GM %": "24.7",
+     "OM %": "\u221222.0",
+     "NM %": "\u221219.4",
+     "Backlog": "~$1.12B funded"
+    },
+    {
+     "Ticker": "KTOS",
+     "Company": "Kratos",
+     "EPS g (YoY)": "+18.2%",
+     "Fwd EPS g": "+39%*",
+     "P/E": "275",
+     "Fwd P/E": "~60",
+     "GM %": "22.9",
+     "OM %": "1.7",
+     "NM %": "2.1",
+     "Backlog": "$2.010B"
+    },
+    {
+     "Ticker": "RCAT",
+     "Company": "Red Cat",
+     "EPS g (YoY)": "loss narrowed",
+     "Fwd EPS g": "N/A",
+     "P/E": "N/A (neg)",
+     "Fwd P/E": "N/A (neg)",
+     "GM %": "7.5",
+     "OM %": "\u2212149.2",
+     "NM %": "\u221290.2",
+     "Backlog": "n/r"
+    },
+    {
+     "Ticker": "ONDS",
+     "Company": "Ondas",
+     "EPS g (YoY)": "~\u22121.6%",
+     "Fwd EPS g": "N/A",
+     "P/E": "N/A (neg)",
+     "Fwd P/E": "N/A (neg)",
+     "GM %": "44.9",
+     "OM %": "\u221293.9",
+     "NM %": "n/m",
+     "Backlog": "$457M pro forma"
+    },
+    {
+     "Ticker": "UMAC",
+     "Company": "Unusual Machines",
+     "EPS g (YoY)": "neg",
+     "Fwd EPS g": "N/A",
+     "P/E": "N/A (neg)",
+     "Fwd P/E": "N/A (neg)",
+     "GM %": "9.5",
+     "OM %": "\u2212168.9",
+     "NM %": "\u221232.7",
+     "Backlog": "~$12M POs"
+    },
+    {
+     "Ticker": "DPRO",
+     "Company": "Draganfly",
+     "EPS g (YoY)": "neg, improving",
+     "Fwd EPS g": "N/A",
+     "P/E": "N/A (neg)",
+     "Fwd P/E": "N/A (neg)",
+     "GM %": "19.1",
+     "OM %": "\u2212292.4",
+     "NM %": "\u2212296.4",
+     "Backlog": "n/r"
+    },
+    {
+     "Ticker": "UAVS",
+     "Company": "AgEagle",
+     "EPS g (YoY)": "neg",
+     "Fwd EPS g": "N/A",
+     "P/E": "N/A (neg)",
+     "Fwd P/E": "N/A (neg)",
+     "GM %": "48.2",
+     "OM %": "\u2212123.4",
+     "NM %": "\u221223.4",
+     "Backlog": "n/r"
+    },
+    {
+     "Ticker": "PDYN",
+     "Company": "Palladyne AI",
+     "EPS g (YoY)": "neg",
+     "Fwd EPS g": "N/A",
+     "P/E": "N/A (neg)",
+     "Fwd P/E": "N/A (neg)",
+     "GM %": "32.0",
+     "OM %": "\u2212528.6",
+     "NM %": "\u2212158.7",
+     "Backlog": "n/r"
+    },
+    {
+     "Ticker": "ZENA",
+     "Company": "ZenaTech",
+     "EPS g (YoY)": "neg",
+     "Fwd EPS g": "N/A",
+     "P/E": "N/A (neg)",
+     "Fwd P/E": "N/A (neg)",
+     "GM %": "69.0",
+     "OM %": "\u2212217.6",
+     "NM %": "\u2212309.0",
+     "Backlog": "n/r"
+    }
+   ]
+  },
+  {
+   "key": "space",
+   "etf": "UFO / ARKX",
+   "title": "Space / launch / satellites",
+   "rows": [
+    {
+     "Ticker": "RKLB",
+     "Company": "Rocket Lab",
+     "EPS g (YoY)": "loss narrowing",
+     "Fwd EPS g": "N/A",
+     "P/E": "N/A (neg)",
+     "Fwd P/E": "N/A (neg)",
+     "GM %": "36.6",
+     "OM %": "\u221231.6",
+     "NM %": "\u221226.9",
+     "Backlog": "$2.2B (+108%)"
+    },
+    {
+     "Ticker": "ASTS",
+     "Company": "AST SpaceMobile",
+     "EPS g (YoY)": "loss narrowing",
+     "Fwd EPS g": "N/A",
+     "P/E": "N/A (neg)",
+     "Fwd P/E": "N/A (neg)",
+     "GM %": "50.3",
+     "OM %": "\u2212405.7",
+     "NM %": "\u2212650.1",
+     "Backlog": ">$1.2B contracted"
+    },
+    {
+     "Ticker": "LUNR",
+     "Company": "Intuitive Machines",
+     "EPS g (YoY)": "loss narrowing",
+     "Fwd EPS g": "N/A",
+     "P/E": "N/A (neg)",
+     "Fwd P/E": "N/A (neg)",
+     "GM %": "9.7",
+     "OM %": "\u221234.8",
+     "NM %": "\u221248.0",
+     "Backlog": "$1.1B record"
+    },
+    {
+     "Ticker": "PL",
+     "Company": "Planet Labs",
+     "EPS g (YoY)": "neg",
+     "Fwd EPS g": "N/A",
+     "P/E": "N/A (neg)",
+     "Fwd P/E": "N/A (neg)",
+     "GM %": "55.5",
+     "OM %": "\u221231.9",
+     "NM %": "n/m",
+     "Backlog": "$906M / RPO $816M"
+    },
+    {
+     "Ticker": "RDW",
+     "Company": "Redwire",
+     "EPS g (YoY)": "loss widened",
+     "Fwd EPS g": "N/A",
+     "P/E": "N/A (neg)",
+     "Fwd P/E": "N/A (neg)",
+     "GM %": "9.2",
+     "OM %": "\u221276.8",
+     "NM %": "\u221280.9",
+     "Backlog": "$498M (+71%)"
+    },
+    {
+     "Ticker": "VOYG",
+     "Company": "Voyager Tech",
+     "EPS g (YoY)": "loss narrowing",
+     "Fwd EPS g": "N/A",
+     "P/E": "N/A (neg)",
+     "Fwd P/E": "N/A (neg)",
+     "GM %": "18.0",
+     "OM %": "\u221275.9",
+     "NM %": "\u221278.0",
+     "Backlog": "$275M (+54%)"
+    },
+    {
+     "Ticker": "KRMN",
+     "Company": "Karman",
+     "EPS g (YoY)": "+666%*",
+     "Fwd EPS g": "+185%*",
+     "P/E": "206.3",
+     "Fwd P/E": "72.5",
+     "GM %": "41.0",
+     "OM %": "16.2",
+     "NM %": "5.7",
+     "Backlog": "~$1.0B (+61%)"
+    }
+   ]
+  },
+  {
+   "key": "quantum",
+   "etf": "QTUM",
+   "title": "Quantum computing",
+   "rows": [
+    {
+     "Ticker": "IONQ",
+     "Company": "IonQ",
+     "EPS g (YoY)": "neg",
+     "Fwd EPS g": "~breakeven",
+     "P/E": "53.5\u2020",
+     "Fwd P/E": "N/A (neg)",
+     "GM %": "40.4",
+     "OM %": "\u2212487",
+     "NM %": "neg",
+     "Backlog": "~$370M"
+    },
+    {
+     "Ticker": "RGTI",
+     "Company": "Rigetti",
+     "EPS g (YoY)": "neg",
+     "Fwd EPS g": "neg",
+     "P/E": "N/A (neg)",
+     "Fwd P/E": "N/A (neg)",
+     "GM %": "29.1",
+     "OM %": "\u22121,194",
+     "NM %": "neg",
+     "Backlog": "n/r"
+    },
+    {
+     "Ticker": "QBTS",
+     "Company": "D-Wave",
+     "EPS g (YoY)": "neg",
+     "Fwd EPS g": "neg",
+     "P/E": "N/A (neg)",
+     "Fwd P/E": "N/A (neg)",
+     "GM %": "82.6",
+     "OM %": "\u2212408",
+     "NM %": "neg",
+     "Backlog": "n/r"
+    },
+    {
+     "Ticker": "QUBT",
+     "Company": "Quantum Computing Inc",
+     "EPS g (YoY)": "neg",
+     "Fwd EPS g": "neg",
+     "P/E": "N/A (neg)",
+     "Fwd P/E": "N/A (neg)",
+     "GM %": "9.8",
+     "OM %": "\u22127,489",
+     "NM %": "neg",
+     "Backlog": "n/r"
+    },
+    {
+     "Ticker": "ARQQ",
+     "Company": "Arqit",
+     "EPS g (YoY)": "neg",
+     "Fwd EPS g": "neg",
+     "P/E": "N/A (neg)",
+     "Fwd P/E": "N/A (neg)",
+     "GM %": "~100",
+     "OM %": "\u22127,271",
+     "NM %": "neg",
+     "Backlog": "n/r"
+    },
+    {
+     "Ticker": "IBM",
+     "Company": "IBM (ref.)",
+     "EPS g (YoY)": "+94%",
+     "Fwd EPS g": "+7.5%*",
+     "P/E": "24.1",
+     "Fwd P/E": "21.7",
+     "GM %": "58.4",
+     "OM %": "18.2",
+     "NM %": "15.6",
+     "Backlog": "RPO ~$69B"
+    }
+   ]
+  },
+  {
+   "key": "nuclear",
+   "etf": "URA / URNM / NLR",
+   "title": "Nuclear / SMR / uranium",
+   "rows": [
+    {
+     "Ticker": "OKLO",
+     "Company": "Oklo",
+     "EPS g (YoY)": "neg (no rev)",
+     "Fwd EPS g": "N/A",
+     "P/E": "N/A (neg)",
+     "Fwd P/E": "N/A (neg)",
+     "GM %": "N/A",
+     "OM %": "N/A",
+     "NM %": "N/A",
+     "Backlog": "~14 GW LOIs"
+    },
+    {
+     "Ticker": "SMR",
+     "Company": "NuScale",
+     "EPS g (YoY)": "neg",
+     "Fwd EPS g": "N/A",
+     "P/E": "N/A (neg)",
+     "Fwd P/E": "N/A (neg)",
+     "GM %": "23.8",
+     "OM %": "neg",
+     "NM %": "neg",
+     "Backlog": "ENTRA1 TVA \u22646 GW"
+    },
+    {
+     "Ticker": "NNE",
+     "Company": "Nano Nuclear",
+     "EPS g (YoY)": "neg (no rev)",
+     "Fwd EPS g": "N/A",
+     "P/E": "N/A (neg)",
+     "Fwd P/E": "N/A (neg)",
+     "GM %": "N/A",
+     "OM %": "N/A",
+     "NM %": "N/A",
+     "Backlog": "n/r (MOUs)"
+    },
+    {
+     "Ticker": "CEG",
+     "Company": "Constellation",
+     "EPS g (YoY)": "+21.3%",
+     "Fwd EPS g": "+20%*",
+     "P/E": "22.6",
+     "Fwd P/E": "22.6",
+     "GM %": "22.9",
+     "OM %": "16.6",
+     "NM %": "12.7",
+     "Backlog": "MSFT 20-yr PPA"
+    },
+    {
+     "Ticker": "VST",
+     "Company": "Vistra",
+     "EPS g (YoY)": "\u22126.1%",
+     "Fwd EPS g": "+58%*",
+     "P/E": "27.6",
+     "Fwd P/E": "15.8",
+     "GM %": "29.3",
+     "OM %": "18.1",
+     "NM %": "6.2",
+     "Backlog": ">3.8 GW PPAs"
+    },
+    {
+     "Ticker": "LEU",
+     "Company": "Centrus",
+     "EPS g (YoY)": "\u221252.7%",
+     "Fwd EPS g": "\u22124.5%*",
+     "P/E": "58.2",
+     "Fwd P/E": "63.3",
+     "GM %": "25.7",
+     "OM %": "6.7",
+     "NM %": "13.4",
+     "Backlog": "~$3.9B to 2040"
+    },
+    {
+     "Ticker": "CCJ",
+     "Company": "Cameco",
+     "EPS g (YoY)": "+112.9%*",
+     "Fwd EPS g": "+64%*",
+     "P/E": "97.5*",
+     "Fwd P/E": "71.3",
+     "GM %": "36.8",
+     "OM %": "16.9",
+     "NM %": "18.4",
+     "Backlog": "~230M lbs committed"
+    }
+   ]
+  },
+  {
+   "key": "defense",
+   "etf": "ITA / PPA / SHLD",
+   "title": "Defense / defense-tech",
+   "rows": [
+    {
+     "Ticker": "PLTR",
+     "Company": "Palantir",
+     "EPS g (YoY)": "+287%*",
+     "Fwd EPS g": "+72%*",
+     "P/E": "126.95",
+     "Fwd P/E": "71.5",
+     "GM %": "84.1",
+     "OM %": "38.1",
+     "NM %": "43.7",
+     "Backlog": "RPO $4.5B / RDV $11.8B"
+    },
+    {
+     "Ticker": "LMT",
+     "Company": "Lockheed Martin",
+     "EPS g (YoY)": "+5%*",
+     "Fwd EPS g": "+5%*",
+     "P/E": "24.6",
+     "Fwd P/E": "16.7",
+     "GM %": "9.9",
+     "OM %": "8.9",
+     "NM %": "6.4",
+     "Backlog": "$186.4B"
+    },
+    {
+     "Ticker": "RTX",
+     "Company": "RTX",
+     "EPS g (YoY)": "+21%*",
+     "Fwd EPS g": "+8%*",
+     "P/E": "35.3",
+     "Fwd P/E": "27.2",
+     "GM %": "20.2",
+     "OM %": "12.0",
+     "NM %": "8.0",
+     "Backlog": "$271B"
+    },
+    {
+     "Ticker": "NOC",
+     "Company": "Northrop Grumman",
+     "EPS g (YoY)": "+26%*",
+     "Fwd EPS g": "+4%*",
+     "P/E": "15.7",
+     "Fwd P/E": "17.7",
+     "GM %": "20.5",
+     "OM %": "13.7",
+     "NM %": "10.8",
+     "Backlog": "$95.6B"
+    },
+    {
+     "Ticker": "GD",
+     "Company": "General Dynamics",
+     "EPS g (YoY)": "+27%*",
+     "Fwd EPS g": "+8%*",
+     "P/E": "21.8",
+     "Fwd P/E": "20.6",
+     "GM %": "15.2",
+     "OM %": "10.3",
+     "NM %": "8.1",
+     "Backlog": "$131B"
+    },
+    {
+     "Ticker": "BA",
+     "Company": "Boeing",
+     "EPS g (YoY)": "N/A (neg core)",
+     "Fwd EPS g": "N/A",
+     "P/E": "N/A (neg)",
+     "Fwd P/E": "n/m",
+     "GM %": "4.8",
+     "OM %": "\u22125.8",
+     "NM %": "~2.5",
+     "Backlog": "$695B"
+    },
+    {
+     "Ticker": "LDOS",
+     "Company": "Leidos",
+     "EPS g (YoY)": "\u2014",
+     "Fwd EPS g": "\u2014",
+     "P/E": "9.3",
+     "Fwd P/E": "8.2",
+     "GM %": "17.9",
+     "OM %": "12.2",
+     "NM %": "8.2",
+     "Backlog": "$49.0B"
+    },
+    {
+     "Ticker": "BAH",
+     "Company": "Booz Allen",
+     "EPS g (YoY)": "\u2014",
+     "Fwd EPS g": "\u2014",
+     "P/E": "9.0",
+     "Fwd P/E": "10.0",
+     "GM %": "22.4",
+     "OM %": "9.8",
+     "NM %": "7.6",
+     "Backlog": "$38B"
+    },
+    {
+     "Ticker": "KTOS",
+     "Company": "Kratos",
+     "EPS g (YoY)": "+18.2%",
+     "Fwd EPS g": "+39%*",
+     "P/E": "275",
+     "Fwd P/E": "~60",
+     "GM %": "22.9",
+     "OM %": "1.7",
+     "NM %": "2.1",
+     "Backlog": "$2.010B"
+    },
+    {
+     "Ticker": "RHM.DE",
+     "Company": "Rheinmetall",
+     "EPS g (YoY)": "strong",
+     "Fwd EPS g": "+45% (3Y)",
+     "P/E": "41.8",
+     "Fwd P/E": "22.6",
+     "GM %": "53.5",
+     "OM %": "16.6",
+     "NM %": "7.2",
+     "Backlog": "\u20ac73B backlog"
+    }
+   ]
+  },
+  {
+   "key": "rareearth",
+   "etf": "REMX",
+   "title": "Rare earths / critical minerals",
+   "rows": [
+    {
+     "Ticker": "MP",
+     "Company": "MP Materials",
+     "EPS g (YoY)": "neg",
+     "Fwd EPS g": "+353%*",
+     "P/E": "N/A (neg)",
+     "Fwd P/E": "~140",
+     "GM %": "14.2",
+     "OM %": "\u221291.2",
+     "NM %": "\u221228.0",
+     "Backlog": "DoD 10-yr offtake; Apple"
+    },
+    {
+     "Ticker": "USAR",
+     "Company": "USA Rare Earth",
+     "EPS g (YoY)": "neg",
+     "Fwd EPS g": "N/A",
+     "P/E": "N/A (neg)",
+     "Fwd P/E": "N/A (neg)",
+     "GM %": "11.9*",
+     "OM %": "n/m",
+     "NM %": "n/m",
+     "Backlog": "15-yr offtake; $1.6B LOI"
+    },
+    {
+     "Ticker": "CRML",
+     "Company": "Critical Metals",
+     "EPS g (YoY)": "neg",
+     "Fwd EPS g": "N/A",
+     "P/E": "N/A (neg)",
+     "Fwd P/E": "N/A (neg)",
+     "GM %": "N/A",
+     "OM %": "n/m",
+     "NM %": "n/m",
+     "Backlog": "15-yr Tanbreez offtake"
+    },
+    {
+     "Ticker": "LYC.AX",
+     "Company": "Lynas",
+     "EPS g (YoY)": "+58.5%*",
+     "Fwd EPS g": "+128%*",
+     "P/E": "216.3*",
+     "Fwd P/E": "37.9*",
+     "GM %": "31.1",
+     "OM %": "10.8",
+     "NM %": "11.5",
+     "Backlog": "JARE + US DoW offtake"
+    }
+   ]
+  }
+ ]
+}

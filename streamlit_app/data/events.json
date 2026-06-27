@@ -1,0 +1,194 @@
+[
+ {
+  "date": "2024-09-20",
+  "etf": "NLR",
+  "headline": "Constellation to restart Three Mile Island for Microsoft",
+  "detail": "Ignited the nuclear/AI-power theme; CEG +~22% in a day."
+ },
+ {
+  "date": "2024-10-14",
+  "etf": "NLR",
+  "headline": "Google\u2013Kairos SMR deal (Amazon\u2013X-energy Oct 16)",
+  "detail": "Hyperscalers validate small modular reactors."
+ },
+ {
+  "date": "2024-11-19",
+  "etf": "DRNZ",
+  "headline": "Red Cat wins US Army SRR program of record",
+  "detail": "Anchored a ~900% 13-month run in RCAT."
+ },
+ {
+  "date": "2024-12-09",
+  "etf": "QTUM",
+  "headline": "Google unveils 'Willow' quantum chip",
+  "detail": "Below-threshold error correction \u2014 ignited quantum trade."
+ },
+ {
+  "date": "2025-01-06",
+  "etf": "QTUM",
+  "headline": "Jensen Huang: useful quantum '15\u201330 yrs away'",
+  "detail": "Sharp single-day quantum selloff."
+ },
+ {
+  "date": "2025-01-21",
+  "etf": "SOXX",
+  "headline": "'Stargate' $500B AI infrastructure announced",
+  "detail": "Bullish for the AI-capex chain (chips\u2192power)."
+ },
+ {
+  "date": "2025-01-27",
+  "etf": "SOXX",
+  "headline": "DeepSeek efficiency scare \u2014 NVDA \u221217%",
+  "detail": "Record one-day market-cap loss."
+ },
+ {
+  "date": "2025-01-27",
+  "etf": "UFO",
+  "headline": "Trump 'Golden Dome' missile-defense EO",
+  "detail": "Up-to-$151B space missile-defense pipeline."
+ },
+ {
+  "date": "2025-03-03",
+  "etf": "SOXX",
+  "headline": "TSMC +$100B US investment (\u2192$165B Arizona)",
+  "detail": "Onshoring/CHIPS theme reinforced."
+ },
+ {
+  "date": "2025-03-18",
+  "etf": "SOXX",
+  "headline": "Nvidia GTC: Spectrum-X co-packaged optics",
+  "detail": "Legitimized silicon photonics / CPO."
+ },
+ {
+  "date": "2025-03-20",
+  "etf": "QTUM",
+  "headline": "Nvidia 'Quantum Day' \u2014 Huang walks back",
+  "detail": "Sentiment reversal; quantum names rally."
+ },
+ {
+  "date": "2025-04-04",
+  "etf": "REMX",
+  "headline": "China rare-earth export controls (7 heavy REEs)",
+  "detail": "Ignited rare-earth trade."
+ },
+ {
+  "date": "2025-04-09",
+  "etf": "SOXX",
+  "headline": "US license required for Nvidia H20 China exports",
+  "detail": "NVDA $5.5B charge."
+ },
+ {
+  "date": "2025-05-23",
+  "etf": "NLR",
+  "headline": "Trump's 4 nuclear executive orders (400 GW by 2050)",
+  "detail": "OKLO +~23%, uranium names +~20% on the day."
+ },
+ {
+  "date": "2025-06-06",
+  "etf": "DRNZ",
+  "headline": "Trump EO 14307 'Unleashing American Drone Dominance'",
+  "detail": "Sector rally across US-made drone names."
+ },
+ {
+  "date": "2025-06-25",
+  "etf": "ITA",
+  "headline": "NATO Hague Summit: 5%-of-GDP defense pledge",
+  "detail": "Broad defense + European-defense rally."
+ },
+ {
+  "date": "2025-07-10",
+  "etf": "REMX",
+  "headline": "DoD takes $400M equity stake in MP Materials",
+  "detail": "+ $110/kg NdPr floor; MP +~50% on the day."
+ },
+ {
+  "date": "2025-07-15",
+  "etf": "REMX",
+  "headline": "Apple\u2013MP $500M magnet supply deal",
+  "detail": "MP +~20%; stock ~quadrupled YTD."
+ },
+ {
+  "date": "2025-08-01",
+  "etf": "ITA",
+  "headline": "US Army consolidates Palantir contracts \u2192 up to $10B",
+  "detail": "Defense-software contract milestone."
+ },
+ {
+  "date": "2025-10-06",
+  "etf": "SOXX",
+  "headline": "AMD\u2013OpenAI: up to 6GW + warrant",
+  "detail": "AMD +~24% in a day."
+ },
+ {
+  "date": "2025-10-08",
+  "etf": "UFO",
+  "headline": "AST SpaceMobile\u2013Verizon direct-to-cell deal",
+  "detail": "Satellite-to-phone goes commercial; ASTS +8.6%."
+ },
+ {
+  "date": "2025-10-09",
+  "etf": "REMX",
+  "headline": "China expands rare-earth controls (extraterritorial)",
+  "detail": "Blow-off top across rare-earth names."
+ },
+ {
+  "date": "2025-10-29",
+  "etf": "SOXX",
+  "headline": "NVDA first company worth $5 trillion",
+  "detail": "Validated supply-constrained AI-chip demand."
+ },
+ {
+  "date": "2025-11-15",
+  "etf": "UFO",
+  "headline": "Golden Dome: first space-interceptor prototype awards",
+  "detail": "Space-defense theme momentum."
+ },
+ {
+  "date": "2025-12-22",
+  "etf": "DRNZ",
+  "headline": "FCC adds all foreign drones to Covered List (DJI)",
+  "detail": "Tailwind for US 'Blue UAS' makers."
+ },
+ {
+  "date": "2025-12-15",
+  "etf": "SOXX",
+  "headline": "Trump approves Nvidia H200 exports to China",
+  "detail": "Positive China-access catalyst."
+ },
+ {
+  "date": "2026-01-05",
+  "etf": "SOXX",
+  "headline": "Memory: DRAM contract prices +~90\u201395% QoQ",
+  "detail": "HBM-driven memory supercycle."
+ },
+ {
+  "date": "2026-03-02",
+  "etf": "SOXX",
+  "headline": "Nvidia invests $4B in Coherent + Lumentum",
+  "detail": "Optics champions hard-wired into Nvidia roadmap."
+ },
+ {
+  "date": "2026-04-24",
+  "etf": "UFO",
+  "headline": "Golden Dome: 20 contracts up to $3.2B to 12 firms",
+  "detail": "Space-based interceptor confirmation."
+ },
+ {
+  "date": "2026-05-20",
+  "etf": "SOXX",
+  "headline": "NVDA record Q1 FY27 (rev +85% YoY)",
+  "detail": "Data-center rev +92%; +$80B buyback."
+ },
+ {
+  "date": "2026-05-21",
+  "etf": "QTUM",
+  "headline": "Commerce: $2B CHIPS + equity stakes in 9 quantum firms",
+  "detail": "'Quantum trade roars back'."
+ },
+ {
+  "date": "2026-06-22",
+  "etf": "QTUM",
+  "headline": "Trump signs two quantum executive orders",
+  "detail": "Quantum names surge vs a down market."
+ }
+]

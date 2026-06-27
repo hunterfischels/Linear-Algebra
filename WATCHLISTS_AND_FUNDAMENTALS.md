@@ -31,7 +31,14 @@ SMH/SOXX; drones → ITA/defense, with newer pure-plays UAV/DRNZ/SHLD too short 
 
 ![Thematic ETF ~5-year total return, best to worst](./assets/etf_total_return_5y_bar.png)
 
-### 🖱️ Interactive version → [`assets/interactive_etf_chart.html`](./assets/interactive_etf_chart.html)
+### 🚀 Streamlit app → [`streamlit_app/`](./streamlit_app) &nbsp;|&nbsp; 🖱️ Standalone HTML → [`assets/interactive_etf_chart.html`](./assets/interactive_etf_chart.html)
+
+Two interactive options:
+- **Streamlit app** (richest): `cd streamlit_app && pip install -r requirements.txt && streamlit run app.py`.
+  Adjustable start date (presets + day slider), clickable news nodes, 87 ETFs + SPY grouped by
+  subsector, watchlists/fundamentals tabs, and optional live price refresh from Yahoo. Deploy free on
+  Streamlit Community Cloud (main file `streamlit_app/app.py`). See [`streamlit_app/README.md`](./streamlit_app/README.md).
+- **Standalone HTML** (zero install): open the file below in a browser.
 
 A self-contained interactive chart (open it in a browser — it won't render in GitHub's file
 preview; **download the file and open it**, or serve the repo via GitHub Pages):
